@@ -34,7 +34,11 @@ setup(
     license='ISC License',
     url='https://github.com/timeoutdigital/route53-to-cloudformation',
     keywords=['aws', 'cloudformation', 'route53'],
-    install_requires=['boto3>=1.4.0'],
+    install_requires=[
+        'boto3>=1.4.0',
+        'PyYAML',
+        'six',
+    ],
     py_modules=['route53_to_cloudformation'],
     entry_points={
         'console_scripts': [

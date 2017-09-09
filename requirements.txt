@@ -21,5 +21,6 @@ pyflakes==1.5.0           # via flake8
 pygments==2.2.0
 pytest==3.2.2
 python-dateutil==2.6.1    # via botocore
+pyyaml==3.12
 s3transfer==0.1.11        # via boto3
-six==1.10.0               # via python-dateutil
+six==1.10.0

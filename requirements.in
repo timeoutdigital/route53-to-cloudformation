@@ -5,3 +5,5 @@ isort
 multilint
 Pygments
 pytest
+PyYAML
+six
